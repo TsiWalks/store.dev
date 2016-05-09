@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<ma_sahara_digital5>
+    <blocks>
+       
+        <block>
+            <title>Footer Links Company</title>
+            <identifier>footer_links_company</identifier>
+            <content>
+                    <![CDATA[
+						<div class="links-company">
+						<ul>
+						<li class="first"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Sitemap</a></li>
+						<li><a href="{{store direct_url="catalogsearch/advanced"}}">Advanced Search</a></li>
+						<li><a href="{{store url=""}}contacts/">Contact Us</a></li>
+						<li><a href="{{store url=""}}customer-service/">Customer Service</a></li>
+						<li class="last"><a href="{{store url=""}}privacy-policy-cookie-restriction-mode/">Privacy Policy</a></li>
+						</ul>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Ma Block Static 1</title>
+            <identifier>ma_block_static_1</identifier>
+            <content>
+			<![CDATA[
+				<div class="ma-block-static-1">
+				<div class="container">
+				<div class="row">
+				<div class="ca-box ca-box1 col-sm-4 col-md-4 col-sms-12">
+				<div class="ca-box-inner">
+				<div class="ca-box-title">Free Shipping Worldwide</div>
+				<div class="ca-box-content">Zorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem sum has been the industry'...</div>
+				</div>
+				</div>
+				<div class="ca-box ca-box2 col-sm-4 col-md-4 col-sms-12">
+				<div class="ca-box-inner">
+				<div class="ca-box-title">Money Back Guarantee</div>
+				<div class="ca-box-content">Zorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem sum has been the industry'...</div>
+				</div>
+				</div>
+				<div class="ca-box ca-box3 col-sm-4 col-md-4 col-sms-12">
+				<div class="ca-box-inner">
+				<div class="ca-box-title">Online Payment Secured</div>
+				<div class="ca-box-content">Zorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem sum has been the industry'...</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		    ]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Footer Static Top</title>
+            <identifier>footer_static_top</identifier>
+            <content>
+                <![CDATA[
+					<div class="footer-static-top">
+					<div class="container">
+					<div class="container-inner">
+					<div class="row">
+					<div class="f-col f-col-1 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>ABOUT US</h3>
+					</div>
+					<div class="footer-static-content">
+					<p class="des">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas...</p>
+					<ul class="link-follow">
+					<li class="first"><a class="facebook fa fa-facebook" href="#"><span>facebook</span></a></li>
+					<li><a class="rss fa fa-rss" href="#"><span>rss</span></a></li>
+					<li><a class="twitter fa fa-twitter" href="#"><span>twitter</span></a></li>
+					<li><a class="linkedin fa fa-linkedin" href="#"><span>linkedin</span></a></li>
+					<li class="last"><a class="dribbble fa fa-dribbble" href="#"><span>dribbble</span></a></li>
+					</ul>
+					</div>
+					</div>
+					<div class="f-col f-col-2 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>CONTACT US</h3>
+					</div>
+					<div class="footer-static-content">
+					<ul>
+					<li><span class="fa fa-map-marker">&nbsp;</span>
+					<p>1234 Heaven Stress, Beverly Hill <span>OldYork- United State of Lorem</span></p>
+					</li>
+					<li><span class="fa fa-mobile">&nbsp;</span>
+					<p>(800) 0123 4567 890 <span>(800) 0987 654 321</span></p>
+					</li>
+					<li><span class="fa fa-envelope-o">&nbsp;</span>
+					<p>Support1@plazathemes.com<span>Support2@plazathemes.com</span></p>
+					</li>
+					</ul>
+					</div>
+					</div>
+					<div class="f-col f-col-3 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>LATEST TWEETS</h3>
+					</div>
+					<div class="footer-static-content">{{block type="core/template" after="-" name="lastesttweet" template="magentothem/lastesttweet/lastesttweet.phtml"}}</div>
+					</div>
+					<div class="f-col f-col-4 col-sm-6 col-md-3 col-sms-6 col-smb-12">{{block type="newsletter/subscribe" name="left.newsletter" template="newsletter/subscribe.phtml"}}</div>
+					</div>
+					</div>
+					</div>
+					</div>
+                ]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+		<block>
+            <title>Banner Left</title>
+            <identifier>banner_left</identifier>
+            <content>
+                   <![CDATA[
+						<div class="banner-left hidden-xs"><a href="{{store direct_url="audios.html"}}"><img src="{{media url="wysiwyg/banner-left.jpg"}}" alt="" /></a></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Footer Static Payment</title>
+            <identifier>footer_static_payment</identifier>
+            <content>
+                   <![CDATA[
+						<ul class="footer_links footer_payment">
+						<li><img src="{{media url="wysiwyg/paypal.png"}}" alt="" /></li>
+						</ul>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Static Sub Menu Bottom</title>
+            <identifier>pt_menu_idcat_4_right</identifier>
+            <content>
+                   <![CDATA[
+					<div class="sub-menu-col4">
+					<div class="sub-menu-inner">
+					<h2 class="title">New style !</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+					<a href="#"><img src="{{media url="wysiwyg/img-sub4.png"}}" alt="" /></a></div>
+					</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Toplink Static</title>
+            <identifier>toplink_static</identifier>
+            <content>
+                   <![CDATA[
+						<div class="toplink-static clearfix">
+						<div class="tell-phone pull-left">Hotline:(+800) 123 456 7890</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+		<block>
+            <title>Banner Home Content</title>
+            <identifier>banner_home_content</identifier>
+            <content>
+                   <![CDATA[
+						<div class="banner-home-content">
+						<div class="row">
+						<div class="ca-box ca-box4 col-sm-4 col-md-4 col-sms-12">
+						<div class="ca-box-inner">
+						<div class="box-img"><a href="{{store direct_url="cameras.html"}}"><img src="{{media url="wysiwyg/televisions.png"}}" alt="" /></a></div>
+						<div class="box-content">
+						<h3 class="title">TelevisionS</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting...</p>
+						<a class="button" href="{{store direct_url="cameras.html"}}">Shop Now</a></div>
+						</div>
+						</div>
+						<div class="ca-box ca-box5 col-sm-4 col-md-4 col-sms-12">
+						<div class="ca-box-inner">
+						<div class="box-img"><a href="{{store direct_url="phones.html"}}"><img src="{{media url="wysiwyg/house-hold.png"}}" alt="" /></a></div>
+						<div class="box-content">
+						<h3 class="title">HOUSE HOLD</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting...</p>
+						<a class="button" href="{{store direct_url="phones.html"}}">Shop Now</a></div>
+						</div>
+						</div>
+						<div class="ca-box ca-box6 col-sm-4 col-md-4 col-sms-12">
+						<div class="ca-box-inner">
+						<div class="box-img"><a href="{{store direct_url="tables.html"}}"><img src="{{media url="wysiwyg/laptops.png"}}" alt="" /></a></div>
+						<div class="box-content">
+						<h3 class="title">LAPTOPS</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting...</p>
+						<a class="button" href="{{store direct_url="tables.html"}}">Shop Now</a></div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Footer Static Bottom</title>
+            <identifier>footer_static_bottom</identifier>
+            <content>
+                   <![CDATA[
+					<div class="footer-static-bottom">
+					<div class="container">
+					<div class="container-inner">
+					<div class="row">
+					<div class="f-col f-col-5 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>OUR SERVICES</h3>
+					</div>
+					<div class="footer-static-content">
+					<ul>
+					<li class="first"><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+					<li><a href="{{store direct_url="contacts"}}">Order History</a></li>
+					<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Returns</a></li>
+					<li><a href="{{store direct_url="customer-service"}}">Custom Service</a></li>
+					<li class="last"><a href="{{store direct_url="catalogsearch/term/popular"}}">Terms &amp; Condition</a></li>
+					</ul>
+					</div>
+					</div>
+					<div class="f-col f-col-6 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>our support</h3>
+					</div>
+					<div class="footer-static-content ">
+					<ul>
+					<li class="first"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Sitemap</a></li>
+					<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+					<li><a href="{{store direct_url="customer/account/index"}}">Your Account</a></li>
+					<li><a href="{{store direct_url="catalogsearch/advanced"}}">Advanced Search</a></li>
+					<li class="last"><a href="{{store direct_url="contacts"}}">Contact Us</a></li>
+					</ul>
+					</div>
+					</div>
+					<div class="f-col f-col-7 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>MY ACCOUNT</h3>
+					</div>
+					<div class="footer-static-content">
+					<ul>
+					<li class="first"><a href="{{store direct_url="customer/account/index"}}">My Account</a></li>
+					<li><a href="{{store direct_url="contacts"}}">Order History</a></li>
+					<li><a href="{{store direct_url="contacts"}}">Returns</a></li>
+					<li><a href="{{store direct_url="contacts"}}">Specials</a></li>
+					<li class="last"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Site Map</a></li>
+					</ul>
+					</div>
+					</div>
+					<div class="f-col f-col-8 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+					<div class="footer-static-title">
+					<h3>information</h3>
+					</div>
+					<div class="footer-static-content">
+					<ul>
+					<li class="first"><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+					<li><a href="{{store direct_url="contacts"}}">Delivery Information</a></li>
+					<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+					<li><a href="{{store direct_url="customer-service"}}">Custom Service</a></li>
+					<li class="last"><a href="{{store direct_url="catalogsearch/term/popular"}}">Terms &amp; Condition</a></li>
+					</ul>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Ma Block Static 3</title>
+            <identifier>ma_block_static_3</identifier>
+            <content>
+                   <![CDATA[
+						<div class="ma-block-static-3">
+						<div class="banner-home-center">
+						<div class="container">
+						<div class="container-inner">
+						<div class="banner-home-center-inner">
+						<div class="banner-home-title">Beautiful Laptop<span>Retina Display 18&rdquo; Ready !</span></div>
+						<div class="banner-home-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+						<div class="icon-button"><a href="{{store direct_url="audios.html"}}">Shop Now</a></div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Ma Block Static 4</title>
+            <identifier>ma_block_static_4</identifier>
+            <content>
+                   <![CDATA[
+						<div class="ma-block-static-4">
+						<div class="container">
+						<div class="row">
+						<div class="col-xs-12 col-md-6 col-sm-12 ">{{block type="bestsellerproduct/bestsellerproduct" name="bestsellerproduct" template="magentothem/bestsellerproduct/bestsellerproduct.phtml"}}</div>
+						<div class="col-xs-12 col-md-6 col-sm-12 ">{{block type="onsaleproduct/onsaleproduct" name="onsaleproduct" template="magentothem/onsaleproduct/onsaleproduct.phtml"}}</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+    </blocks>
+</ma_sahara_digital5>
+
