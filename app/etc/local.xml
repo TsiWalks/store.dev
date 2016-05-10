@@ -28,10 +28,10 @@
 <config>
     <global>
         <install>
-            <date><![CDATA[Mon, 09 May 2016 08:53:13 +0000]]></date>
+            <date><![CDATA[Tue, 10 May 2016 04:18:21 +0000]]></date>
         </install>
         <crypt>
-            <key><![CDATA[vis0suxssmz1m43hb9zdx5f4hp1b4jnm]]></key>
+            <key><![CDATA[o7ex3lzjhjc7b6myoden9auhaarfxugd]]></key>
         </crypt>
         <disable_local_modules>false</disable_local_modules>
         <resources>
@@ -41,9 +41,9 @@
             <default_setup>
                 <connection>
                     <host><![CDATA[localhost]]></host>
-                    <username><![CDATA[mage369]]></username>
-                    <password><![CDATA[.Pxa.rS558]]></password>
-                    <dbname><![CDATA[mage369]]></dbname>
+                    <username><![CDATA[mage757]]></username>
+                    <password><![CDATA[788P(SmK@2]]></password>
+                    <dbname><![CDATA[mage757]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
