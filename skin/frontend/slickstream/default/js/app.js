@@ -778,6 +778,21 @@ $j(document).ready(function () {
             $j('.header-language-container .store-language-container').prepend($j('.form-language'));
         }
     });
+    
+    // ==============================================
+    // Logo Switcher - Draft - 1st Attempt fail!
+    // ==============================================
+
+    // In order to display the the logo in line with the mobile menu, we are moving the content at different viewports,
+    // rather than having duplicate markup or changing the design
+//    enquire.register('(max-width: ' + bp.medium + 'px)', {
+//        match: function () {
+//            $j('.page-header-container .store-logo-container').prepend($j('.form-language'));
+//        },
+//        unmatch: function () {
+//            $j('.page-header-container .store-logo-container').prepend($j('.form-language'));
+//        }
+//    });
 
     // ==============================================
     // Enquire JS
@@ -1276,3 +1291,7 @@ var ProductMediaManager = {
 $j(document).ready(function() {
     ProductMediaManager.init();
 });
+
+$j(document).ready(function(){
+    
+}
